@@ -63,9 +63,9 @@ budget = st.number_input("Enter Budget for Salary Increments:", value=50000, ste
 salary_manager = SalaryManager(budget=budget)
 
 # Adding groups
-group_names = ["A - Ksh11850", "B - Ksh10650", "C - Ksh9650", "D - Ksh8650", "E - Ksh6250", "F - Ksh5250", "G - Ksh4250", "H - Ksh2750"]
-base_salaries = [11850, 10650, 9650, 8650, 6250, 5250, 4250, 2750]
-num_members = [10, 1, 20, 10, 50, 1, 2, 28]
+group_names = ["A - Ksh11850", "B - Ksh10650", "C - Ksh9650", "D - Ksh8650", "E - Ksh6250", "F - Ksh5250", "G - 4750", "H - Ksh4250", "I - Ksh2750", "J - Ksh2250"]
+base_salaries = [11850, 10650, 9650, 8650, 6250, 5250, 4750, 4250, 2750, 2250]
+num_members = [10, 1, 20, 10, 50, 1, 2, 28, 4, 3]
 
 for i in range(len(group_names)):
     with st.expander(f"Group {group_names[i]}"):
